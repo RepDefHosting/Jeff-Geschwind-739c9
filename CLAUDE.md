@@ -216,3 +216,154 @@ yarn build           # production build (runs scripts/prebuild first)
 The `--openssl-legacy-provider` Node option is set in `netlify.toml` and is required — Gatsby 2 dependencies use legacy OpenSSL on Node 20.
 
 Push to `master` triggers Netlify auto-deploy.
+
+---
+
+## Client Context & Business Purpose
+
+This template is used for **executive personal brand microsites**. Each deployed site
+represents one person. The primary goal is SEO — ranking for `[First Name Last Name]`
+searches and controlling what Google shows in text results, image pack, and eventually
+a knowledge panel.
+
+**Typical client inputs (always limited):**
+- Bio (varying quality and length)
+- Headshot (often poor quality — template must make any image look good)
+- Links to external properties: LinkedIn, Crunchbase, Medium, WordPress, Weebly, etc.
+- Occasionally a resume
+- Published articles or press mentions
+
+**This means the template must:**
+- Look polished with minimal content
+- Degrade gracefully when sections have no data (hide empty sections, never show blank areas)
+- Make it easy for non-technical operators to fill in content via CMS
+
+---
+
+## Site Structure
+
+**Hybrid architecture — rich homepage + separate blog and gallery:**
+
+| Page | URL | Purpose |
+|------|-----|---------|
+| Homepage | `/` | SEO workhorse — bio, links, articles, press, gallery preview |
+| About/Profile | `/profile/` | Deeper bio, career timeline, resume-style |
+| Blog archive | `/blog/` | Article listing |
+| Blog post | `/blog/[slug]/` | Individual article |
+| Gallery | `/gallery/` | Image grid — crawlable for Google image pack |
+| Press | `/press/` | Media mentions, logos, quotes (optional via CMS toggle) |
+| Speaking | `/speaking/` | Speaking engagements (optional via CMS toggle) |
+
+---
+
+## Homepage Sections (in order)
+
+1. **Hero** — name, title/tagline, headshot (above fold, image SEO critical)
+2. **Bio summary** — 2-3 sentences, links to full profile page
+3. **External properties row** — LinkedIn, Crunchbase, Medium, Twitter etc. (`sameAs` links)
+4. **Featured articles** — pulls 3 most recent blog posts
+5. **Press mentions** — publication logos/names, headline, link (CMS toggled)
+6. **Career highlights** — optional section (CMS toggle to show/hide)
+7. **Gallery preview** — pulls 6 most recent gallery images
+8. **Contact / CTA** — simple contact prompt or link
+
+**Every section must be independently toggleable via a CMS boolean field.**
+If a section has no content, it must not render at all — no empty gaps.
+
+---
+
+## CMS Fields Reference
+
+### Site-wide (`sitedata.md`)
+- `fullName` — used in schema, title tags, favicon initials, alt text
+- `title` — professional title / tagline
+- `headshot` — image (alt text must default to fullName — critical for image SEO)
+- `shortBio` — 2-3 sentences for homepage
+- `longBio` — full bio for profile/about page
+- `location` — city/region (used in Person schema)
+- `sameAs` — list of external profile URLs (LinkedIn, Crunchbase, Medium, etc.)
+- `colorScheme` — theme color: `londn`, `sand`, `coral`, `sun`
+- `fontScheme` — theme font: `muli`, `lora`, `proza`, `rubik`, `popp`
+
+### Blog post fields
+- `title`, `date`, `body`, `featuredImage`, `metaDescription`
+- `schemaType` defaults to `BlogPosting`
+- `published` boolean
+
+### Gallery image fields
+- `image` — required
+- `alt` — required, SEO critical (describe who is in the image + context)
+- `caption` — optional
+- `date`
+
+### Press mention fields
+- `publication` — publication name
+- `logo` — publication logo image
+- `headline` — article headline
+- `url` — link to coverage
+- `date`
+- `featured` — boolean, show on homepage strip
+
+---
+
+## SEO Architecture
+
+**This is not cosmetic — every decision below affects search ranking.**
+
+### Title tag pattern
+Every page: `[Full Name] — [Page Topic] | [Domain]`
+Example: `Jane Smith — Executive Profile | janesmith.com`
+
+### Person schema (JSON-LD)
+Must be on every page, not just homepage:
+
+```json
+{
+  "@type": "Person",
+  "name": "[fullName]",
+  "jobTitle": "[title]",
+  "image": "[headshot URL]",
+  "url": "[site root]",
+  "sameAs": ["[linkedin]", "[crunchbase]", "[medium]", "..."]
+}
+```
+
+`sameAs` array is the most important field — it tells Google all these properties
+belong to the same entity. Always populate from the `sameAs` CMS field.
+
+### Image SEO rules
+- Headshot filename must be `firstname-lastname.jpg` (set convention in CMS instructions)
+- All images must have descriptive alt text — never empty
+- Gallery images render as standard `<img>` tags (NOT background-image) so Google can crawl them
+- Gallery page must have an `<h1>` with the person's name
+
+### Internal linking rules
+- Every blog post links back to the homepage and profile page
+- Gallery page links to homepage
+- Press page links to homepage
+- Homepage links to all section pages
+
+### External linking (`sameAs`)
+- All external profile links use `rel="noopener"` but NOT `rel="nofollow"`
+- These are authoritative links that help Google build the entity graph
+
+---
+
+## Design Principles for This Use Case
+
+**Must work with limited/poor assets:**
+- Hero section must look good with just a name + title (no headshot fallback)
+- Headshot should be displayed in a way that flatters poor quality images
+  (avoid large full-bleed crops — use contained portrait frames with backgrounds)
+- Bio sections must look complete even with 2 sentences
+
+**Scalable content model:**
+- Every optional section has a CMS boolean to show/hide
+- Sections with no content must render `null` — never show empty containers
+- Blog and gallery are the primary fresh-content mechanisms — make them easy to update
+
+**Interlinking UX:**
+- External property links should be prominent but not distracting
+- Use recognizable icons (LinkedIn, etc.) + text labels for accessibility and SEO
+- "As seen on" / press strip reinforces authority on homepage
+
