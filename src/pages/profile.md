@@ -54,7 +54,7 @@ subheader: null
 published: true
 header: Jennifer Neitzel
 featuredImage:
-  src: /img/businessbuildings.jpg
+  src: /img/businesshero2.png
   alt: Hero Image
   caption: null
 discoverConnectExplore: Keizer
