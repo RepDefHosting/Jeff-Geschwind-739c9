@@ -20,6 +20,6 @@ A commercial property appraisal entails what a business property is worth as of 
 
 Before the visit, the appraiser reviews the available file to decide what should be verified in person. That background may include prior transfers, current listings, leases, zoning, or deed restrictions. This review helps the appraiser arrive at focused questions about the site, building, and legal use.
 
-Once on site, location and market setting usually come first. Surrounding land uses, nearby activity, visibility, and access from major roads help show how the property fits its environment. Those observations also help the appraiser compare the site with other properties competing for similar buyers, tenants, or users. The appraiser also notes whether nearby influences support the property’s use or create limits that shape market appeal.
+Once on site, location and market setting usually come first. Surrounding land uses, nearby activity, visibility, and access from major roads help show how the property fits its environment. Those observations also help the appraiser compare the site with other properties competing for similar buyers, tenants, or users. The appraiser also notes whether nearby influences support the property’s use or create limits that shape market appeal...
 
 [Read full article here](https://jenniferneitzel.wordpress.com/2026/04/21/what-appraisers-look-for-during-a-commercial-property-inspection/)
