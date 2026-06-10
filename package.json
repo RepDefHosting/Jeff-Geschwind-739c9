@@ -91,6 +91,9 @@
     "prettier": "^2.0.5",
     "react-test-renderer": "^16.13.1"
   },
+  "resolutions": {
+    "axios": "^0.31.1"
+  },
   "prettier": {
     "printWidth": 80,
     "trailingComma": "all",
