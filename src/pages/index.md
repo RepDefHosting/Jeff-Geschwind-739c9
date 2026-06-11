@@ -2,14 +2,14 @@
 templateKey: index-page
 pageSlug: /
 pageTitle: Home
-metaDescription: Since joining the web-based restaurant review company in its
-  startup phase, Chandler Villacruz has spearheaded market research activities
-  that have allowed the firm to build effective advertising campaigns and
-  achieve sound business growth.
+metaDescription: In 2024, Jennifer Neitzel joined the firm of Powell Banz
+  Valuation as a member of the appraiser staff, and has now has provided
+  opinions of value on numerous commercial properties throughout the state of
+  Oregon.
 published: true
 schemaType: WebPage
 featuredImage:
-  src: /img/businessbuildings.jpg
+  src: /img/businesshero2.png
   alt: Hero Image for home page
 profileButton:
   link: /profile
@@ -35,6 +35,4 @@ ctaButton:
   label: Send a Message
   link: mailto:hello@example.com
 ---
-Since joining the web-based restaurant review company in its startup phase, Chandler Villacruz has spearheaded market research activities that have allowed the firm to build effective advertising campaigns and achieve sound business growth.
-
-Chandler Villacruz also led the Food Rates marketing team in creating a successful user rewards program that boosted online signups by 10,000 accounts in its first 30 days. For his achievements in his field, the San Francisco Business Times recognized him as one of its “40 Under 40” business leaders in 2014.
+In 2024, Jennifer Neitzel joined the firm of Powell Banz Valuation as a member of the appraiser staff, and has now has provided opinions of value on numerous commercial properties throughout the state of Oregon. Jennifer has professional experience in the range of appraisal processes, including site inspections, market data analysis, and preparing appraisal reports that adhere to Uniform Standards of Professional Appraisal Practice guidelines. In addition, she serves as the Education Chair for the Appraisal Institute, Greater Oregon Chapter.
