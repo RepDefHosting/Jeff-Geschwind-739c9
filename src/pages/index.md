@@ -2,14 +2,12 @@
 templateKey: index-page
 pageSlug: /
 pageTitle: Home
-metaDescription: In 2024, Jennifer Neitzel joined the firm of Powell Banz
-  Valuation as a member of the appraiser staff, and has now has provided
-  opinions of value on numerous commercial properties throughout the state of
-  Oregon.
+metaDescription: Based in Sun Prairie, Wisconsin, Bill Huemmer guides clients
+  through the process of applying for home loans.
 published: true
 schemaType: WebPage
 featuredImage:
-  src: /img/businesshero2.png
+  src: /img/businessbuildings.jpg
   alt: Hero Image for home page
 profileButton:
   link: /profile
@@ -35,4 +33,4 @@ ctaButton:
   label: Send a Message
   link: mailto:hello@example.com
 ---
-In 2024, Jennifer Neitzel joined the firm of Powell Banz Valuation as a member of the appraiser staff, and has now has provided opinions of value on numerous commercial properties throughout the state of Oregon. Jennifer has professional experience in the range of appraisal processes, including site inspections, market data analysis, and preparing appraisal reports that adhere to Uniform Standards of Professional Appraisal Practice guidelines. In addition, she serves as the Education Chair for the Appraisal Institute, Greater Oregon Chapter.
+Based in Sun Prairie, Wisconsin, Bill Huemmer guides clients through the process of applying for home loans. As a mortgage loan originator, he communicates closely with builders, realtors, and clients. Bill Huemmer undertakes interviews and secures new leads, ensuring that the application process is seamless and efficient. He excels at answering the specific questions posed by lenders and supervisors about loan programs.

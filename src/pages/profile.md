@@ -2,15 +2,13 @@
 templateKey: profile-page
 pageSlug: /profile
 pageTitle: Profile
-metaDescription: In 2024, Jennifer Neitzel joined the firm of Powell Banz
-  Valuation as a member of the appraiser staff, and has now has provided
-  opinions of value on numerous commercial properties throughout the state of
-  Oregon.
+metaDescription: Based in Sun Prairie, Wisconsin, Bill Huemmer guides clients
+  through the process of applying for home loans.
 schemaType: ProfilePage
 blogButton:
   label: Blog
   link: /blog
-connectWithMe: Oregon
+connectWithMe: Wisconsin
 pageContent: >-
   # Heading line here
 
@@ -52,19 +50,17 @@ pageContent: >-
   * **Mr. Villacruz** obtained a bachelor of business administration in marketing from the Mays Business School at Texas A&M University, where he pursued the Advertising Strategy career track. Subsequently, he earned a master of science in marketing at the University of Southern California.
 subheader: null
 published: true
-header: Jennifer Neitzel
+header: Bill Huemmer
 featuredImage:
-  src: /img/businesshero2.png
+  src: /img/businessbuildings.jpg
   alt: Hero Image
   caption: null
-discoverConnectExplore: Keizer
+discoverConnectExplore: Sun Prairie
 longBiography_MD: |
   {{long_biography}}
 ---
-In 2024, Jennifer Neitzel joined the firm of Powell Banz Valuation as a member of the appraiser staff, and has now has provided opinions of value on numerous commercial properties throughout the state of Oregon. Jennifer has professional experience in the range of appraisal processes, including site inspections, market data analysis, and preparing appraisal reports that adhere to Uniform Standards of Professional Appraisal Practice guidelines. In addition, she serves as the Education Chair for the Appraisal Institute, Greater Oregon Chapter.
+Based in Sun Prairie, Wisconsin, Bill Huemmer guides clients through the process of applying for home loans. As a mortgage loan originator, he communicates closely with builders, realtors, and clients. Bill Huemmer undertakes interviews and secures new leads, ensuring that the application process is seamless and efficient. He excels at answering the specific questions posed by lenders and supervisors about loan programs.
 
-Residing in Keizer, Oregon, Jennifer Neitzel spent 33 years in public education with Salem-Keizer Public Schools. For the concluding 21 years of her career in education, Jennifer was a principal for both Morningside Elementary School and had the privilege of opening Kalapuya Elementary as a new school in 2011. Jennifer was responsible for administering and managing more than 500 students and staffs of 50 employees each school year. Her schools routinely scored in the top decile of schools within the state.
+Mr. Huemmer maintains a competent, client-responsive office and regularly provides incoming mortgage officers with training. He ensures that clients considering purchasing homes for the first time have an array of information at hand with which to make educated decisions. Over the course of 40 years, Mr. Huemmer has earned top producer status for volume and number of loans statewide on 30 occasions.
 
-Starting in 2026, Jennifer will serve as the Education Chair for the Greater Oregon Chapter of the Appraisal Institute. Given Jennifer’s extensive background in education and her recent experience toward becoming a Certified General Appraiser, the duality of her professional backgrounds offers the perfect fit for this role and position.
-
-Jennifer Neitzel holds a master of educational leadership from Portland State University and an elementary education degree with a minor in mathematics from Oregon State University. She will earn a certified general appraiser license from the Appraisal Institute and the state of Oregon in 2026.
+Bill Huemmer is an accounting graduate of Madison Area Technical College who began his career with Anchor Bank in the mid-1980s. An avid gardener who values time spent with his family, he also partakes in fitness activities such as weightlifting.
