@@ -1,43 +1,41 @@
 ---
 templateKey: site-data
 published: true
-name: Chandler Villacruz
-jobTitle: Marketing Strategist
-location: San Francisco, CA USA
+name: Bill Huemmer
 profileImage:
-  src: /img/screenshot-2026-06-04-at-2.29.23-pm.png
-  alt: Chandler Villacruz
-siteUrl: https://www.chandlervillacruz.com/
-siteAnalytics: null
-shortBio: Since joining the web-based restaurant review company in its startup
-  phase, Chandler Villacruz has spearheaded market research activities that have
-  allowed the firm to build effective advertising campaigns and achieve sound
-  business growth.
+  src: /img/bill-huemmer.jpg
+  alt: Bill Huemmer
+siteUrl: https://www.billhuemmer.com
+shortBio: Based in Sun Prairie, Wisconsin, Bill Huemmer guides clients through
+  the process of applying for home loans. As a mortgage loan originator, he
+  communicates closely with builders, realtors, and clients. Bill Huemmer
+  undertakes interviews and secures new leads, ensuring that the application
+  process is seamless and efficient. He excels at answering the specific
+  questions posed by lenders and supervisors about loan programs.
 longBio: >-
-  Since joining the web-based restaurant review company in its startup phase,
-  Chandler Villacruz has spearheaded market research activities that have
-  allowed the firm to build effective advertising campaigns and achieve sound
-  business growth.
+  Based in Sun Prairie, Wisconsin, Bill Huemmer guides clients through the
+  process of applying for home loans. As a mortgage loan originator, he
+  communicates closely with builders, realtors, and clients. Bill Huemmer
+  undertakes interviews and secures new leads, ensuring that the application
+  process is seamless and efficient. He excels at answering the specific
+  questions posed by lenders and supervisors about loan programs.
 
 
-  Chandler Villacruz also led the Food Rates marketing team in creating a successful user rewards program that boosted online signups by 10,000 accounts in its first 30 days. For his achievements in his field, the San Francisco Business Times recognized him as one of its “40 Under 40” business leaders in 2014.
+  Mr. Huemmer maintains a competent, client-responsive office and regularly provides incoming mortgage officers with training. He ensures that clients considering purchasing homes for the first time have an array of information at hand with which to make educated decisions. Over the course of 40 years, Mr. Huemmer has earned top producer status for volume and number of loans statewide on 30 occasions.
 
 
-  Chandler Villacruz launched his career at the San Francisco-based Healthy Living. After only six years with the firm, he advanced from his position of marketing associate to the role of marketing director.
-
-
-  Mr. Villacruz obtained a bachelor of business administration in marketing from the Mays Business School at Texas A&M University, where he pursued the Advertising Strategy career track. Subsequently, he earned a master of science in marketing at the University of Southern California.
+  Bill Huemmer is an accounting graduate of Madison Area Technical College who began his career with Anchor Bank in the mid-1980s. An avid gardener who values time spent with his family, he also partakes in fitness activities such as weightlifting.
 socialLinks:
   twitter:
-    url: https://twitter.com/chandlervcruz
+    url: ""
     label: Visit
-    show: true
+    show: false
   facebook:
     url: https://www.facebook.com
     label: Visit
     show: false
   linkedin:
-    url: https://www.linkedin.com/in/chandlervillacruz
+    url: https://www.linkedin.com/in/bill-huemmer-a608b66
     label: Visit
     show: true
   pinterest:
@@ -54,10 +52,13 @@ themeOptions:
   colorScheme: londn
   fontScheme: muli
   showThemeSwitcher: false
+location: Sun Prairie, WI USA
 sameAs:
-  - label: LinkedIn
-    url: https://www.linkedin.com/in/chandlervillacruz
+  - label: Weebly
+    url: https://billhuemmer.weebly.com/
   - label: Medium
-    url: https://medium.com/@chandlervillacruz
+    url: https://medium.com/@billhuemmer
 fallbackImage: /img/pic-executive-main-banner-01.webp
+jobTitle: Mortgage Loan Officer
+siteAnalytics: null
 ---
