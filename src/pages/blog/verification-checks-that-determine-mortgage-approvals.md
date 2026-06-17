@@ -1,17 +1,19 @@
 ---
 templateKey: blog-post
 schemaType: BlogPosting
-pageTitle: Verification Checks That Determine Mortgage Approvals
-metaDescription: Mortgage approvals rely on a structured process that tests
-  whether a borrower can sustain a loan. The system is not about personal
-  judgment, but about aligning information with measurable lending criteria.
+pageTitle: How Clinical Trials Are Becoming More Precise Through Advanced Imaging
+metaDescription: Clinical trials are essential for the development of new cancer
+  treatments, but they generally lacked the precision investigators desired.
+  Traditionally, trials relied on broad eligibility criteria and indirect ways
+  of measuring treatment efficacy. Advances in medical imaging have largely
+  remedied these issues. From improving patient selection, cancer staging,
+  safety monitoring to early determination of tumor response, imaging has
+  transformed the conduct of clinical trials in oncology.
 published: true
 date: 2025-09-19T18:43:08.635Z
-teaser: Mortgage approvals rely on a structured process that tests whether a
-  borrower can sustain a loan. The system is not about personal judgment, but
-  about aligning information with measurable lending criteria.
+teaser: ""
 featuredImage:
-  src: /img/verification-checks-that-determine-mortgage-approvals.webp
+  src: /img/medium-post.jpg
 profileButton:
   link: /profile
   label: Profile
@@ -19,8 +21,6 @@ blogButton:
   link: /blog
   label: Blog
 ---
-Mortgage approvals rely on a structured process that tests whether a borrower can sustain a loan. The system is not about personal judgment, but about aligning information with measurable lending criteria. By confirming income, debt, and collateral, lenders reduce uncertainty and apply a standardized framework for approval.
+Clinical trials are essential for the development of new cancer treatments, but they generally lacked the precision investigators desired. Traditionally, trials relied on broad eligibility criteria and indirect ways of measuring treatment efficacy. Advances in medical imaging have largely remedied these issues. From improving patient selection, cancer staging, safety monitoring to early determination of tumor response, imaging has transformed the conduct of clinical trials in oncology.
 
-One of the first checkpoints is the credit report. Underwriters review payment history, open accounts, credit utilization, and delinquencies. A credit score gives a quick risk snapshot, yet lenders also read the record itself to see whether repayment behavior has been consistent. This stage focuses on financial performance rather than identity...
-
-[Read more](https://billhuemmer.wordpress.com/2025/09/19/verification-checks-that-determine-mortgage-approvals/)
+[R﻿ead more](https://medium.com/@jeffgeschwindmd/how-clinical-trials-are-becoming-more-precise-through-advanced-imaging-639140bb53e4).
