@@ -6,4 +6,6 @@ menuItems:
     label: Home
   - slug: /profile
     label: About
+  - label: Blog
+    slug: /blog
 ---
